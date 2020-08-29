@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { withStyles, Grid, Paper, TextField, Input, Button, Typography } from '@material-ui/core';
 import A from './A'
 import B from './B'
+//import Home from './Home'
 
 class Deploy extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class Deploy extends Component {
   }
 
   render() {
+    
     // console.log(this.state)
     const classes = this.props.classes
     return (
